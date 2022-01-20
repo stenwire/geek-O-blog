@@ -1,7 +1,7 @@
 # Django-Blog-2
-A django blog project
+A django blog project, with some improvements compared to the first version
 
-<h5> The current file structure is shown below, The structure is always updated per every commit</h5> <br />
+<h3> The current file structure is shown below, The structure is always updated per every commit:</h3>
 C:.<br />
 ├───.idea<br />
 │   └───inspectionProfiles<br />
