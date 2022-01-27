@@ -1,17 +1,18 @@
 from django.shortcuts import render
+from .models import Post
 
 posts = [
     {
         'author': 'Sten',
         'title': 'Blog Post 1',
         'content': 'First post content',
-        'date_posted': 'Dec, 12, 2056',
+        'date_posted': 'December 12, 2056',
     },
     {
         'author': 'Chizoba',
         'title': 'Blog Post 2',
         'content': 'Second post content',
-        'date_posted': 'Feb, 12, 2057',
+        'date_posted': 'February 12, 2057',
     }
 ]
 
@@ -19,7 +20,7 @@ posts = [
 # Create your views here.
 def home(request):
     context = {
-        'posts': posts
+        'posts': Post.objects.all()
     }
     return render(request, 'blog/home.html', context)
 
