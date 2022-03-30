@@ -6,6 +6,11 @@ name = "pypi"
 [packages]
 django = "*"
 django-crispy-forms = "*"
+boto3 = "*"
+botocore = "*"
+django-storages = "*"
+pillow = "*"
+urllib3 = "*"
 
 [dev-packages]
 
